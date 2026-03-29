@@ -1,119 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>My resume</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="css/styles.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    
-    <!-- Wrapper -->
-    <div class="wrapper">
 
-        <!-- Main content -->
-        <div class="main-content">
-            <!-- My info -->
-            <div class="my-info">
-                <h2 class="my-profession">KNUCA Student</h2>
+    <div class="container my-md-5 my-0 shadow-lg p-0 overflow-hidden">
+        
+        <div class="wrapper row g-0 bg-white">
 
-                <h1 class="my-name">Maksym Kuczynski</h1>
+            <aside class="sidebar col-12 col-md-4">
+                <img src="student.jpg" class="img-fluid w-100" alt="My photo">
 
-                <p class="my-descr">Motivated Computer Science student with a strong interest in software development and technology. I am a fast learner, have good analytical, communication and problem-solving skills. Open to gaining practical experience, working in a team and improving professional skills in the IT field.</p>
+                <div class="sidebar-content p-4">
+                    <div class="contacts-container mb-4">
+                        <h3 class="contacts-title">Contacts</h3>
+                        <p class="contacts-item mb-1">
+                            <span class="contacts-type font-weight-bold">C:</span>
+                            <a class="contacts-link" href="tel:+380995673543">+38 099 567 35 43</a>
+                        </p>
+                        <p class="contacts-item mb-1">
+                            <span class="contacts-type font-weight-bold">E:</span>
+                            <a class="contacts-link" href="mailto:maksymkuchynskyi@gmail.com">maksymkuchynskyi@gmail.com</a>
+                        </p>
+                        <p class="contacts-item mb-1">
+                            <span class="contacts-type font-weight-bold">G:</span>
+                            <a class="contacts-link" href="https://github.com/MaksymKuczynski" target="_blank">github.com/MaksymKuczynski</a>
+                        </p>
+                    </div>
+
+                    <div class="skills-container mb-4">
+                        <h3 class="skills-title">Languages</h3>
+                        <ul class="list-unstyled">
+                            <li>Ukrainian — Native</li>
+                            <li>Polish — B2</li>
+                            <li>English — B2</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-container mb-4">
+                        <h3 class="skills-title">Tech Skills</h3>
+                        <ul class="list-unstyled">
+                            <li>HTML5, CSS3, GIT</li>
+                            <li>JavaScript, Python, C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills-container">
+                        <h3 class="skills-title">Soft Skills</h3>
+                        <ul class="list-unstyled">
+                            <li>Teamwork</li>
+                            <li>Problem-solving</li>
+                            <li>Communication</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="main-content col-12 col-md-8 p-4 p-md-5">
+                
+                <div class="my-info mb-5">
+                    <h2 class="my-profession text-secondary h5">KNUCA Student</h2>
+                    <h1 class="my-name display-5 fw-bold text-dark">Maksym Kuczynski</h1>
+                    <p class="my-descr mt-3 text-muted">Motivated Computer Science student with a strong interest in software development and technology. I am a fast learner, have good analytical, communication and problem-solving skills. Open to gaining practical experience, working in a team and improving professional skills in the IT field.</p>
+                </div>
+
+                <div class="education-section mb-5">
+                    <h3 class="education-container h4 fw-bold border-bottom pb-2">Education</h3>
+                    <p class="mb-1"> <span class="education-name fw-bold">Kyiv National University of Construction and Architecture</span></p>
+                    <p class="computer-science mb-1">Computer Science</p>
+                    <p class="study-experience-period text-muted">September 2025 — Present</p>
+                </div>
+
+                <section class="projects">
+                    <h3 class="section-title h4 fw-bold border-bottom pb-2">Projects</h3>
+                    <ul class="list-unstyled mt-3">
+                        <li class="project-item mb-3 p-3 border rounded shadow-sm">
+                            <span class="project-name fw-bold">Personal Portfolio</span>
+                            <span class="badge bg-dark ms-2">HTML / CSS</span>
+                            <p class="project-description mt-2 text-muted">Portfolio website showcasing my web development skills.</p>
+                            <a href="https://MaksymKuczynski.github.io/my-portfolio/" target="_blank" class="project-link text-primary">GitHub</a>
+                        </li>
+                    </ul>
+                </section>
             </div>
 
-            <!-- Education -->
-            <div>
-                <h3 class="education-container">Education</h3>
-                    <p> <span class="education-name">Kyiv National University of Construction and Architecture</span></p>
-                    <p class="computer-science">Computer Science</p>
-                    <p class="study-experience-period">September 2025 — Present</p>
-            </div>
-
-            <!-- Projects -->
-            <section class="projects">
-            <h3 class="section-title">Projects</h3>
-            <ul class="projects-list">
-                <li class="project-item">
-                <span class="project-name">Personal Portfolio</span>
-                <span class="project-tech">HTML / CSS</span>
-                <p class="project-description">Portfolio website showcasing my web development skills.</p>
-                <a href="https://MaksymKuczynski.github.io/my-portfolio/" target="_blank" class="project-link">GitHub</a>
-                </li>
-            </ul>
-            </section>
-
-        </div>
-
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <img src="student.jpg" alt="My photo" width="370">
-
-            <div class="sidebar-content">
-                <!-- Contacts -->
-                <div class="contacts-container">
-                    <h3 class="contacts-title">Contacts</h3>
-                    <p class="contacts-item">
-                        <span class="contacts-type">C:</span>
-                        <a class="contacts-link" href="+380995673543">+38 099 567 35 43</a>
-                    </p>
-                    <p class="contacts-item">
-                        <span class="contacts-type">E:</span>
-                        <a class="contacts-link" href="maksymkuchynskyi@gmail.com">maksymkuchynskyi@gmail.com</a>
-                    </p>
-                    <p class="contacts-item">
-                        <span class="contacts-type">G:</span>
-                        <a class="contacts-link" href="https://github.com/MaksymKuczynski">github.com/MaksymKuczynski</a>
-                    </p>
-                </div>
-
-                <!-- Languages -->
-                <div class="skills-container">
-                    <h3 class="skills-title">Languages</h3>
-                    <ul class="skills-list">
-                        <li class="skills-list-item">Ukrainian — Native speaker</li>
-                        <li class="skills-list-item">Polish — Upper-Intermediate (B2)</li>
-                        <li class="skills-list-item">English — Upper-Intermediate (B2)</li>
-                    </ul>
-                </div>
-
-                <!-- Tech skills -->
-                <div class="skills-container">
-                    <h3 class="skills-title">Tech Skills</h3>
-                    <ul class="skills-list">
-                        <li class="skills-list-item">HTML5</li>
-                        <li class="skills-list-item">CSS3</li>
-                        <li class="skills-list-item">GIT</li>
-                        <li class="skills-list-item">JavaScript</li>
-                        <li class="skills-list-item">Python</li>
-                        <li class="skills-list-item">C++</li>
-                    </ul>
-                </div>
-
-                <!-- Soft skills -->
-                <div class="skills-container">
-                    <h3 class="skills-title">Soft Skills</h3>
-                    <ul class="skills-list">
-                        <li class="skills-list-item">Teamwork</li>
-                        <li class="skills-list-item">Problem-solving</li>
-                        <li class="skills-list-item">Communication</li>
-                    </ul>
-                </div>
-
-            </div>
-        </aside>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </div> </div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
