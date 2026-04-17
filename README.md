@@ -5,7 +5,6 @@
 ## Посилання
 * **Мій сайт:** [https://maksymkuczynski.github.io/my-portfolio/](https://maksymkuczynski.github.io/my-portfolio/)
 * **Репозиторій:** [https://github.com/MaksymKuczynski/my-portfolio](https://github.com/MaksymKuczynski/my-portfolio)
-* **Загальна сторінка групи:** [Встав тут посилання на той сайт, де всі студенти разом]
 
 ## Опис проекту
 Портфоліо розроблене для презентації моїх навчальних досягнень, виконаних лабораторних робіт та проектів. Основна увага приділена чистоті коду, адаптивності та сучасному візуальному стилю.
